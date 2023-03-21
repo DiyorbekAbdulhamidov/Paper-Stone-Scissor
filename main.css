@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app {
+    width: 1000px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 20px;
+    position: relative;
+    left: 400px;
+}
+
+.elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.oyinlar {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.oyinlar p {
+    font-size: 20px;
+}
+
+.oyinlar:hover {
+    transform: scale(1.1);
+}
+
+.oyinlar:active {
+    background-color: white;
+    ;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.info-game {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: pink;
+    color: red;
+    border: none;
+    font-size: 20px;
+    transition: all 0.5s ease-in-out;
+}
+button:active{
+    background-color: black;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
